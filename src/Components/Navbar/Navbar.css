@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    font-size: 20px;
+}
+
+.nav-button,
+.logo {
+    background: transparent;
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: inherit;
+    color: inherit;
+    padding: 0;
+    font-family: inherit;
+}
+
+.nav-button:hover,
+.logo:hover {
+    color: #B923E1;
+}
+
+.nav-connect {
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    outline: none;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+    box-shadow: none;
+}
+
+.nav-connect:hover {
+    transform: scale(1.05);
+}
+
+.nav-connect:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}

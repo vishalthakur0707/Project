@@ -1,0 +1,91 @@
+:root {
+  --bg: #0f1724;
+  --card: #0b1220;
+  --muted: #9aa4b2;
+  --accent: #06b6d4;
+}
+
+.connect-section {
+  padding: 48px 20px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(180deg, var(--bg), #071023 120%);
+}
+
+.connect-card {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  padding: 28px;
+  max-width: 700px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(2, 6, 23, 0.6);
+  color: #eef6fb;
+}
+
+.connect-card h2 {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.connect-lead {
+  color: var(--muted);
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+  background: var(--card);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: background 0.3s, transform 0.3s;
+}
+
+.social-link:hover {
+  transform: translateY(-3px);
+  background: var(--accent);
+  color: #042023;
+}
+
+.social-link svg {
+  font-size: 18px;
+}
+
+.linkedin:hover {
+  background: #0a66c2;
+  color: #fff;
+}
+
+.github:hover {
+  background: #333;
+  color: #fff;
+}
+
+.twitter:hover {
+  background: #1da1f2;
+  color: #fff;
+}
+
+.instagram:hover {
+  background: linear-gradient(45deg, #fd1d1d, #e1306c, #c13584, #833ab4, #5851db);
+  color: #fff;
+}
+
+@media (max-width: 500px) {
+  .social-links {
+    flex-direction: column;
+  }
+}

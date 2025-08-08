@@ -1,0 +1,104 @@
+.about {
+  background-color: #111;
+  color: #fff;
+  padding: 60px 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.about-title span {
+  color: #f72585;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+}
+
+.about-left img.about-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.about-right {
+  max-width: 600px;
+}
+
+.about-desc {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.skills .skill {
+  margin-bottom: 15px;
+}
+
+.skills span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.bar {
+  width: 100%;
+  height: 6px;
+  background: #333;
+  border-radius: 10px;
+  position: relative;
+}
+
+.bar::after {
+  content: "";
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+.html-css::after {
+  width: 95%;
+  background: #ff0054;
+}
+
+.react-js::after {
+  width: 90%;
+  background: #7209b7;
+}
+
+.javascript::after {
+  width: 85%;
+  background: #fca311;
+}
+
+.next-js::after {
+  width: 70%;
+  background: #4361ee;
+}
+
+.about-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.about-stats h3 {
+  font-size: 28px;
+  color: #f72585;
+}
+
+.about-stats p {
+  font-size: 14px;
+  color: #ccc;
+}
